@@ -1,0 +1,6 @@
+#Header set Referrer-Policy "origin"
+#header set access-control-allow-origin *
+#AddHandler application/x-httpd-php71 .php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]

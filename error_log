@@ -1,0 +1,1 @@
+[18-Feb-2019 04:24:38 UTC] PHP Fatal error:  Call to undefined function hash_equals() in /home/setubri2/public_html/shopify/app/src/public/helpers.php on line 28

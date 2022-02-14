@@ -1,0 +1,6 @@
+#Header unset X-Frame-Options
+#Header set Referrer-Policy "origin"
+header set access-control-allow-origin *
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
